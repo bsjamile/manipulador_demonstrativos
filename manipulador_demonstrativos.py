@@ -318,4 +318,5 @@ if __name__ == "__main__":
     Demonstrativos.show()
     sys.exit(app.exec_())
 
-
+# transformar em executavel com icone na janelinha e na barra de tarefas: 
+# pyinstaller --onefile --windowed --icon=icone.ico --add-data "icone.ico;." manipulador_demonstrativos.py
